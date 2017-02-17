@@ -1,0 +1,99 @@
+{
+  "id": "76a0b834-1284-4303-a010-5de069ed4c2b",
+  "name": "Tutorial",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "one",
+      "synonyms": [
+        "1",
+        "1st",
+        "First",
+        "one"
+      ]
+    },
+    {
+      "value": "two",
+      "synonyms": [
+        "two",
+        "2",
+        "2nd",
+        "Second"
+      ]
+    },
+    {
+      "value": "three",
+      "synonyms": [
+        "three",
+        "3",
+        "3rd",
+        "third"
+      ]
+    },
+    {
+      "value": "four",
+      "synonyms": [
+        "Foruth",
+        "four",
+        "4th",
+        "4"
+      ]
+    },
+    {
+      "value": "five",
+      "synonyms": [
+        "five",
+        "fifth",
+        "5th",
+        "five"
+      ]
+    },
+    {
+      "value": "six",
+      "synonyms": [
+        "sixth",
+        "6th",
+        "6",
+        "six"
+      ]
+    },
+    {
+      "value": "seven",
+      "synonyms": [
+        "seven",
+        "seventh",
+        "7th",
+        "7"
+      ]
+    },
+    {
+      "value": "eight",
+      "synonyms": [
+        "eight",
+        "eigth",
+        "8th",
+        "8"
+      ]
+    },
+    {
+      "value": "nine",
+      "synonyms": [
+        "nine",
+        "ninth",
+        "9",
+        "9th"
+      ]
+    },
+    {
+      "value": "ten",
+      "synonyms": [
+        "ten",
+        "tenth",
+        "10th",
+        "10"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true
+}

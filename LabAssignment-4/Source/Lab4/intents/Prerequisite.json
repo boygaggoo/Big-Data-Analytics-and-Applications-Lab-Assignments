@@ -1,0 +1,46 @@
+{
+  "userSays": [
+    {
+      "id": "7498bf50-3692-4056-aa7c-2e904126ed66",
+      "data": [
+        {
+          "text": "what should i know about the video"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "3e0367ae-09c1-40dc-be68-39ae106a6628",
+  "name": "Prerequisite",
+  "auto": true,
+  "contexts": [
+    "prerequisite"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "prequisite",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@Tutorial",
+          "name": "prerequisite",
+          "value": "#prerequisite.tutorial"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "Tutorial #prerequisite.tutorial tutorial1"
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

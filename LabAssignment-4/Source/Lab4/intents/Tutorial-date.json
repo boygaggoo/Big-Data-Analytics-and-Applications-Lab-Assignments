@@ -1,0 +1,104 @@
+{
+  "userSays": [
+    {
+      "id": "c6c88b58-76e9-405e-81b1-71511ee00ede",
+      "data": [
+        {
+          "text": "what is the video about"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "81726d02-d554-446b-8880-eab4a820c06c",
+      "data": [
+        {
+          "text": "what is video "
+        },
+        {
+          "text": "one",
+          "alias": "Tutorial",
+          "meta": "@Tutorial",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "76f28a60-74a7-478b-8c39-484cd4adbb0a",
+      "data": [
+        {
+          "text": "when is video "
+        },
+        {
+          "text": "one",
+          "alias": "Tutorial",
+          "meta": "@Tutorial",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "id": "8a414573-3faf-4da3-8604-515bd65b60e4",
+      "data": [
+        {
+          "text": "when is the "
+        },
+        {
+          "text": "1st",
+          "alias": "Tutorial",
+          "meta": "@Tutorial",
+          "userDefined": true
+        },
+        {
+          "text": " tutorial"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "id": "e574e080-4c8d-45af-aa40-a7d90b3fc702",
+  "name": "video-date",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "tutorial_date",
+      "affectedContexts": [
+        {
+          "name": "prerequisite",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "required": false,
+          "dataType": "@Tutorial",
+          "name": "Tutorial",
+          "value": "$Tutorial",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Try again!!",
+            "Opps..information is not available"
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

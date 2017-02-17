@@ -1,0 +1,39 @@
+{
+  "language": "en",
+  "enabledDomainFeatures": [
+    "smalltalk-domain-on"
+  ],
+  "enableFulfillment": false,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "invocationName": "Big Data Course TA",
+    "project": "bigdata-155317",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "e574e080-4c8d-45af-aa40-a7d90b3fc702",
+        "signInRequired": false
+      }
+    ],
+    "endIntentIds": [
+      "3e0367ae-09c1-40dc-be68-39ae106a6628",
+      "e574e080-4c8d-45af-aa40-a7d90b3fc702"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "FEMALE_1"
+  },
+  "defaultTimezone": "",
+  "webhook": {
+    "url": "https://big-data-course.herokuapp.com/webhook",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": true
+  },
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.2
+}
